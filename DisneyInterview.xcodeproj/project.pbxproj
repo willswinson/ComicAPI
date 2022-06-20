@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BA47CB6529E4AA1A74A2B6 /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B154AAF2405344C4405E9E /* Pods_Tests_iOS.framework */; };
+		8A1A6A7E28601ADF004161D5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A7D28601ADF004161D5 /* Tests_iOS.swift */; };
+		8A1A6A8028601ADF004161D5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A7F28601ADF004161D5 /* Tests_iOSLaunchTests.swift */; };
+		8A1A6A8A28601ADF004161D5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A8928601ADF004161D5 /* Tests_macOS.swift */; };
+		8A1A6A8C28601ADF004161D5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A8B28601ADF004161D5 /* Tests_macOSLaunchTests.swift */; };
+		8A1A6A8D28601ADF004161D5 /* DisneyInterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6528601ADE004161D5 /* DisneyInterviewApp.swift */; };
+		8A1A6A8E28601ADF004161D5 /* DisneyInterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6528601ADE004161D5 /* DisneyInterviewApp.swift */; };
+		8A1A6A8F28601ADF004161D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6628601ADE004161D5 /* ContentView.swift */; };
+		8A1A6A9028601ADF004161D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6628601ADE004161D5 /* ContentView.swift */; };
+		8A1A6A9128601ADF004161D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6728601ADE004161D5 /* Assets.xcassets */; };
+		8A1A6A9228601ADF004161D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6728601ADE004161D5 /* Assets.xcassets */; };
+		8A1A6AA328601C9B004161D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6AA228601C9B004161D5 /* Constants.swift */; };
+		8A1A6AA428601C9B004161D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6AA228601C9B004161D5 /* Constants.swift */; };
+		8AC7802C28601E6D0092FB0B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802B28601E6D0092FB0B /* Endpoint.swift */; };
+		8AC7802D28601E6D0092FB0B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802B28601E6D0092FB0B /* Endpoint.swift */; };
+		8AC7802F286020610092FB0B /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802E286020610092FB0B /* APIEndpoints.swift */; };
+		8AC78030286020610092FB0B /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802E286020610092FB0B /* APIEndpoints.swift */; };
+		8AC78032286026280092FB0B /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78031286026280092FB0B /* ComicViewModel.swift */; };
+		8AC78033286026280092FB0B /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78031286026280092FB0B /* ComicViewModel.swift */; };
+		8AC78038286028080092FB0B /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78037286028080092FB0B /* Comic.swift */; };
+		8AC78039286028080092FB0B /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78037286028080092FB0B /* Comic.swift */; };
+		8AC7803B286099210092FB0B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7803A286099210092FB0B /* String+Extensions.swift */; };
+		8AC7803C286099210092FB0B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7803A286099210092FB0B /* String+Extensions.swift */; };
+		8AC7803E2860A69C0092FB0B /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78037286028080092FB0B /* Comic.swift */; };
+		8AC7803F2860A7FA0092FB0B /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC78031286026280092FB0B /* ComicViewModel.swift */; };
+		8AC780402860A8CF0092FB0B /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802E286020610092FB0B /* APIEndpoints.swift */; };
+		8AC780412860A8D30092FB0B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7803A286099210092FB0B /* String+Extensions.swift */; };
+		8AC780422860A8D60092FB0B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7802B28601E6D0092FB0B /* Endpoint.swift */; };
+		8AC780432860A8D80092FB0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6AA228601C9B004161D5 /* Constants.swift */; };
+		8AC780442860A8DB0092FB0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6A6628601ADE004161D5 /* ContentView.swift */; };
+		8AC7804C2860A9860092FB0B /* DisneyInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7804B2860A9860092FB0B /* DisneyInterviewUITests.swift */; };
+		8AC7804E2860A9860092FB0B /* DisneyInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7804D2860A9860092FB0B /* DisneyInterviewUITestsLaunchTests.swift */; };
+		8AC780552860B25A0092FB0B /* MarvelTokens.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC780542860B25A0092FB0B /* MarvelTokens.plist */; };
+		8AC780562860B25A0092FB0B /* MarvelTokens.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC780542860B25A0092FB0B /* MarvelTokens.plist */; };
+		D21AAEDB789176B1297BF1BC /* Pods_DisneyInterview__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAC860BA6076D7728E97C72 /* Pods_DisneyInterview__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1A6A7A28601ADF004161D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1A6A6028601ADE004161D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1A6A6B28601ADE004161D5;
+			remoteInfo = "DisneyInterview (iOS)";
+		};
+		8A1A6A8628601ADF004161D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1A6A6028601ADE004161D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1A6A7128601ADF004161D5;
+			remoteInfo = "DisneyInterview (macOS)";
+		};
+		8AC7804F2860A9860092FB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1A6A6028601ADE004161D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1A6A6B28601ADE004161D5;
+			remoteInfo = "DisneyInterview (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D443BFAAA7528FE8B33AE6C /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		20B154AAF2405344C4405E9E /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738B52042D92AC1E5062B34F /* Pods-DisneyInterview (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyInterview (iOS).debug.xcconfig"; path = "Target Support Files/Pods-DisneyInterview (iOS)/Pods-DisneyInterview (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		7EAC860BA6076D7728E97C72 /* Pods_DisneyInterview__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyInterview__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860C3E6073007E09839131B7 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8A1A6A6528601ADE004161D5 /* DisneyInterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyInterviewApp.swift; sourceTree = "<group>"; };
+		8A1A6A6628601ADE004161D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1A6A6728601ADE004161D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1A6A6C28601ADE004161D5 /* DisneyInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A6A7228601ADF004161D5 /* DisneyInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A6A7428601ADF004161D5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8A1A6A7928601ADF004161D5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A6A7D28601ADF004161D5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		8A1A6A7F28601ADF004161D5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		8A1A6A8528601ADF004161D5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A6A8928601ADF004161D5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		8A1A6A8B28601ADF004161D5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8A1A6AA228601C9B004161D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8AC7802B28601E6D0092FB0B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		8AC7802E286020610092FB0B /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		8AC78031286026280092FB0B /* ComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicViewModel.swift; sourceTree = "<group>"; };
+		8AC78037286028080092FB0B /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		8AC7803A286099210092FB0B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8AC7803D28609B400092FB0B /* DisneyInterview--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DisneyInterview--iOS--Info.plist"; sourceTree = "<group>"; };
+		8AC780492860A9860092FB0B /* DisneyInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC7804B2860A9860092FB0B /* DisneyInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyInterviewUITests.swift; sourceTree = "<group>"; };
+		8AC7804D2860A9860092FB0B /* DisneyInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AC780542860B25A0092FB0B /* MarvelTokens.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MarvelTokens.plist; sourceTree = "<group>"; };
+		AC7B22F8F346346784FF9729 /* Pods-DisneyInterview (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyInterview (iOS).release.xcconfig"; path = "Target Support Files/Pods-DisneyInterview (iOS)/Pods-DisneyInterview (iOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1A6A6928601ADE004161D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21AAEDB789176B1297BF1BC /* Pods_DisneyInterview__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A6F28601ADF004161D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A7628601ADF004161D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA47CB6529E4AA1A74A2B6 /* Pods_Tests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A8228601ADF004161D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC780462860A9860092FB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B67166506F3D1BB689BFC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738B52042D92AC1E5062B34F /* Pods-DisneyInterview (iOS).debug.xcconfig */,
+				AC7B22F8F346346784FF9729 /* Pods-DisneyInterview (iOS).release.xcconfig */,
+				0D443BFAAA7528FE8B33AE6C /* Pods-Tests iOS.debug.xcconfig */,
+				860C3E6073007E09839131B7 /* Pods-Tests iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A1A6A5F28601ADE004161D5 = {
+			isa = PBXGroup;
+			children = (
+				8AC7803D28609B400092FB0B /* DisneyInterview--iOS--Info.plist */,
+				8AC780542860B25A0092FB0B /* MarvelTokens.plist */,
+				8A1A6A6428601ADE004161D5 /* Shared */,
+				8A1A6A7328601ADF004161D5 /* macOS */,
+				8A1A6A7C28601ADF004161D5 /* Tests iOS */,
+				8A1A6A8828601ADF004161D5 /* Tests macOS */,
+				8AC7804A2860A9860092FB0B /* DisneyInterviewUITests */,
+				8A1A6A6D28601ADE004161D5 /* Products */,
+				43B67166506F3D1BB689BFC4 /* Pods */,
+				A15B81CAE5BF7391902652BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1A6A6428601ADE004161D5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A6A6528601ADE004161D5 /* DisneyInterviewApp.swift */,
+				8A1A6A6628601ADE004161D5 /* ContentView.swift */,
+				8A1A6AA228601C9B004161D5 /* Constants.swift */,
+				8A1A6A6728601ADE004161D5 /* Assets.xcassets */,
+				8AC7802B28601E6D0092FB0B /* Endpoint.swift */,
+				8AC7802E286020610092FB0B /* APIEndpoints.swift */,
+				8AC78031286026280092FB0B /* ComicViewModel.swift */,
+				8AC78037286028080092FB0B /* Comic.swift */,
+				8AC7803A286099210092FB0B /* String+Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8A1A6A6D28601ADE004161D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A6A6C28601ADE004161D5 /* DisneyInterview.app */,
+				8A1A6A7228601ADF004161D5 /* DisneyInterview.app */,
+				8A1A6A7928601ADF004161D5 /* Tests iOS.xctest */,
+				8A1A6A8528601ADF004161D5 /* Tests macOS.xctest */,
+				8AC780492860A9860092FB0B /* DisneyInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1A6A7328601ADF004161D5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A6A7428601ADF004161D5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		8A1A6A7C28601ADF004161D5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A6A7D28601ADF004161D5 /* Tests_iOS.swift */,
+				8A1A6A7F28601ADF004161D5 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		8A1A6A8828601ADF004161D5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A6A8928601ADF004161D5 /* Tests_macOS.swift */,
+				8A1A6A8B28601ADF004161D5 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		8AC7804A2860A9860092FB0B /* DisneyInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7804B2860A9860092FB0B /* DisneyInterviewUITests.swift */,
+				8AC7804D2860A9860092FB0B /* DisneyInterviewUITestsLaunchTests.swift */,
+			);
+			path = DisneyInterviewUITests;
+			sourceTree = "<group>";
+		};
+		A15B81CAE5BF7391902652BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC860BA6076D7728E97C72 /* Pods_DisneyInterview__iOS_.framework */,
+				20B154AAF2405344C4405E9E /* Pods_Tests_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1A6A6B28601ADE004161D5 /* DisneyInterview (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A6A9528601ADF004161D5 /* Build configuration list for PBXNativeTarget "DisneyInterview (iOS)" */;
+			buildPhases = (
+				1F85655D97C82659BE05A28E /* [CP] Check Pods Manifest.lock */,
+				8A1A6A6828601ADE004161D5 /* Sources */,
+				8A1A6A6928601ADE004161D5 /* Frameworks */,
+				8A1A6A6A28601ADE004161D5 /* Resources */,
+				48C2B7BDC6A19F1FF54143B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DisneyInterview (iOS)";
+			productName = "DisneyInterview (iOS)";
+			productReference = 8A1A6A6C28601ADE004161D5 /* DisneyInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1A6A7128601ADF004161D5 /* DisneyInterview (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A6A9828601ADF004161D5 /* Build configuration list for PBXNativeTarget "DisneyInterview (macOS)" */;
+			buildPhases = (
+				8A1A6A6E28601ADF004161D5 /* Sources */,
+				8A1A6A6F28601ADF004161D5 /* Frameworks */,
+				8A1A6A7028601ADF004161D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DisneyInterview (macOS)";
+			productName = "DisneyInterview (macOS)";
+			productReference = 8A1A6A7228601ADF004161D5 /* DisneyInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1A6A7828601ADF004161D5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A6A9B28601ADF004161D5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A6F6FA89DD6FEBEB58EAF34E /* [CP] Check Pods Manifest.lock */,
+				8A1A6A7528601ADF004161D5 /* Sources */,
+				8A1A6A7628601ADF004161D5 /* Frameworks */,
+				8A1A6A7728601ADF004161D5 /* Resources */,
+				8E959415DB08A44A5F95F959 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1A6A7B28601ADF004161D5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 8A1A6A7928601ADF004161D5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8A1A6A8428601ADF004161D5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A6A9E28601ADF004161D5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				8A1A6A8128601ADF004161D5 /* Sources */,
+				8A1A6A8228601ADF004161D5 /* Frameworks */,
+				8A1A6A8328601ADF004161D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1A6A8728601ADF004161D5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 8A1A6A8528601ADF004161D5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8AC780482860A9860092FB0B /* DisneyInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC780512860A9860092FB0B /* Build configuration list for PBXNativeTarget "DisneyInterviewUITests" */;
+			buildPhases = (
+				8AC780452860A9860092FB0B /* Sources */,
+				8AC780462860A9860092FB0B /* Frameworks */,
+				8AC780472860A9860092FB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC780502860A9860092FB0B /* PBXTargetDependency */,
+			);
+			name = DisneyInterviewUITests;
+			productName = DisneyInterviewUITests;
+			productReference = 8AC780492860A9860092FB0B /* DisneyInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1A6A6028601ADE004161D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8A1A6A6B28601ADE004161D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8A1A6A7128601ADF004161D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8A1A6A7828601ADF004161D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8A1A6A6B28601ADE004161D5;
+					};
+					8A1A6A8428601ADF004161D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8A1A6A7128601ADF004161D5;
+					};
+					8AC780482860A9860092FB0B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8A1A6A6B28601ADE004161D5;
+					};
+				};
+			};
+			buildConfigurationList = 8A1A6A6328601ADE004161D5 /* Build configuration list for PBXProject "DisneyInterview" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1A6A5F28601ADE004161D5;
+			productRefGroup = 8A1A6A6D28601ADE004161D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1A6A6B28601ADE004161D5 /* DisneyInterview (iOS) */,
+				8A1A6A7128601ADF004161D5 /* DisneyInterview (macOS) */,
+				8A1A6A7828601ADF004161D5 /* Tests iOS */,
+				8A1A6A8428601ADF004161D5 /* Tests macOS */,
+				8AC780482860A9860092FB0B /* DisneyInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1A6A6A28601ADE004161D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1A6A9128601ADF004161D5 /* Assets.xcassets in Resources */,
+				8AC780552860B25A0092FB0B /* MarvelTokens.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A7028601ADF004161D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1A6A9228601ADF004161D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A7728601ADF004161D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC780562860B25A0092FB0B /* MarvelTokens.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A8328601ADF004161D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC780472860A9860092FB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F85655D97C82659BE05A28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyInterview (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C2B7BDC6A19F1FF54143B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyInterview (iOS)/Pods-DisneyInterview (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyInterview (iOS)/Pods-DisneyInterview (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisneyInterview (iOS)/Pods-DisneyInterview (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E959415DB08A44A5F95F959 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F6FA89DD6FEBEB58EAF34E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1A6A6828601ADE004161D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC78032286026280092FB0B /* ComicViewModel.swift in Sources */,
+				8AC78038286028080092FB0B /* Comic.swift in Sources */,
+				8AC7802F286020610092FB0B /* APIEndpoints.swift in Sources */,
+				8A1A6A8F28601ADF004161D5 /* ContentView.swift in Sources */,
+				8AC7803B286099210092FB0B /* String+Extensions.swift in Sources */,
+				8A1A6A8D28601ADF004161D5 /* DisneyInterviewApp.swift in Sources */,
+				8AC7802C28601E6D0092FB0B /* Endpoint.swift in Sources */,
+				8A1A6AA328601C9B004161D5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A6E28601ADF004161D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC78033286026280092FB0B /* ComicViewModel.swift in Sources */,
+				8AC78039286028080092FB0B /* Comic.swift in Sources */,
+				8AC78030286020610092FB0B /* APIEndpoints.swift in Sources */,
+				8A1A6A9028601ADF004161D5 /* ContentView.swift in Sources */,
+				8AC7803C286099210092FB0B /* String+Extensions.swift in Sources */,
+				8A1A6A8E28601ADF004161D5 /* DisneyInterviewApp.swift in Sources */,
+				8AC7802D28601E6D0092FB0B /* Endpoint.swift in Sources */,
+				8A1A6AA428601C9B004161D5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A7528601ADF004161D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC780422860A8D60092FB0B /* Endpoint.swift in Sources */,
+				8AC780402860A8CF0092FB0B /* APIEndpoints.swift in Sources */,
+				8A1A6A8028601ADF004161D5 /* Tests_iOSLaunchTests.swift in Sources */,
+				8AC7803E2860A69C0092FB0B /* Comic.swift in Sources */,
+				8AC7803F2860A7FA0092FB0B /* ComicViewModel.swift in Sources */,
+				8AC780442860A8DB0092FB0B /* ContentView.swift in Sources */,
+				8AC780412860A8D30092FB0B /* String+Extensions.swift in Sources */,
+				8A1A6A7E28601ADF004161D5 /* Tests_iOS.swift in Sources */,
+				8AC780432860A8D80092FB0B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A6A8128601ADF004161D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1A6A8C28601ADF004161D5 /* Tests_macOSLaunchTests.swift in Sources */,
+				8A1A6A8A28601ADF004161D5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC780452860A9860092FB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC7804E2860A9860092FB0B /* DisneyInterviewUITestsLaunchTests.swift in Sources */,
+				8AC7804C2860A9860092FB0B /* DisneyInterviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1A6A7B28601ADF004161D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1A6A6B28601ADE004161D5 /* DisneyInterview (iOS) */;
+			targetProxy = 8A1A6A7A28601ADF004161D5 /* PBXContainerItemProxy */;
+		};
+		8A1A6A8728601ADF004161D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1A6A7128601ADF004161D5 /* DisneyInterview (macOS) */;
+			targetProxy = 8A1A6A8628601ADF004161D5 /* PBXContainerItemProxy */;
+		};
+		8AC780502860A9860092FB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1A6A6B28601ADE004161D5 /* DisneyInterview (iOS) */;
+			targetProxy = 8AC7804F2860A9860092FB0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A1A6A9328601ADF004161D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1A6A9428601ADF004161D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8A1A6A9628601ADF004161D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738B52042D92AC1E5062B34F /* Pods-DisneyInterview (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DisneyInterview--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterview;
+				PRODUCT_NAME = DisneyInterview;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A1A6A9728601ADF004161D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7B22F8F346346784FF9729 /* Pods-DisneyInterview (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DisneyInterview--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterview;
+				PRODUCT_NAME = DisneyInterview;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1A6A9928601ADF004161D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterview;
+				PRODUCT_NAME = DisneyInterview;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A1A6A9A28601ADF004161D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterview;
+				PRODUCT_NAME = DisneyInterview;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A1A6A9C28601ADF004161D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D443BFAAA7528FE8B33AE6C /* Pods-Tests iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disney.interview.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DisneyInterview (iOS)";
+			};
+			name = Debug;
+		};
+		8A1A6A9D28601ADF004161D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860C3E6073007E09839131B7 /* Pods-Tests iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disney.interview.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DisneyInterview (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1A6A9F28601ADF004161D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disney.interview.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DisneyInterview (macOS)";
+			};
+			name = Debug;
+		};
+		8A1A6AA028601ADF004161D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disney.interview.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DisneyInterview (macOS)";
+			};
+			name = Release;
+		};
+		8AC780522860A9860092FB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DisneyInterview (iOS)";
+			};
+			name = Debug;
+		};
+		8AC780532860A9860092FB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WW7352TUCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.disney.interview.DisneyInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DisneyInterview (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1A6A6328601ADE004161D5 /* Build configuration list for PBXProject "DisneyInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A6A9328601ADF004161D5 /* Debug */,
+				8A1A6A9428601ADF004161D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A6A9528601ADF004161D5 /* Build configuration list for PBXNativeTarget "DisneyInterview (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A6A9628601ADF004161D5 /* Debug */,
+				8A1A6A9728601ADF004161D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A6A9828601ADF004161D5 /* Build configuration list for PBXNativeTarget "DisneyInterview (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A6A9928601ADF004161D5 /* Debug */,
+				8A1A6A9A28601ADF004161D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A6A9B28601ADF004161D5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A6A9C28601ADF004161D5 /* Debug */,
+				8A1A6A9D28601ADF004161D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A6A9E28601ADF004161D5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A6A9F28601ADF004161D5 /* Debug */,
+				8A1A6AA028601ADF004161D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC780512860A9860092FB0B /* Build configuration list for PBXNativeTarget "DisneyInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC780522860A9860092FB0B /* Debug */,
+				8AC780532860A9860092FB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1A6A6028601ADE004161D5 /* Project object */;
+}
