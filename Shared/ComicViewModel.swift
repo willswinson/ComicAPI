@@ -21,7 +21,7 @@ class ComicViewModel: ObservableObject {
     
     func comicImageUrl() -> URL? {
         guard let comic = comicResponse?.data.results.first else { return nil }
-        return URL(string: "\(comic.images.first?.path ?? "")")
+        return URL(string: "\(comic.images.first?.path ?? "")/portrait_xlarge.jpg")
     }
     
     func getComic(comicId: Int) {
